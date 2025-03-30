@@ -58,6 +58,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        sdqt: sdqt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SDQT";
+            bindings = <&autosqt>, <&autodqt>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -155,6 +164,16 @@
 
             label = "AUTOLESSGREAT";
         };
+
+        autopar: autopar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+
+            label = "AUTOPAR";
+        };
     };
 
     keymap {
@@ -183,8 +202,8 @@
         symbol_layer {
             label = "NAV";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3       &kp NUMBER_4       &kp NUMBER_5                    &trans  &trans  &autobracket    &trans     &trans  &trans
-&trans  &trans        &kp LA(LC(LEFT_ARROW))  &kp LA(LC(ENTER))  &kp LA(LC(RIGHT))  &kp LC(UP_ARROW)                &trans  &trans  &trans          &braceket  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3       &kp NUMBER_4       &kp NUMBER_5                    &trans  &trans  &autopar        &trans     &trans  &trans
+&trans  &trans        &kp LA(LC(LEFT_ARROW))  &kp LA(LC(ENTER))  &kp LA(LC(RIGHT))  &kp LC(UP_ARROW)                &trans  &trans  &trans          &braceket  &trans  &sdqt
 &trans  &trans        &trans                  &trans             &trans             &kp LC(DOWN_ARROW)              &trans  &trans  &autolessgreat  &trans     &trans  &trans
 &trans  &trans        &trans                  &trans             &trans                                     &trans  &trans                                             &trans
             >;
