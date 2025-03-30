@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&autobracket', s: '&autobracket'}
+  - {t: '&autobracket', s: '&autobrace'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&autosqt', s: '&autodqt'}
   - {t: '$$mdi:transfer$$', type: trans}
