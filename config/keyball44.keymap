@@ -133,8 +133,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_release>,
+                <&kp LSHFT>,
                 <&macro_tap>,
-                <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT &kp LEFT_ARROW>;
+                <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
 
             label = "AUTOBRACE";
         };
@@ -151,8 +153,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_release>,
+                <&kp LSHFT>,
                 <&macro_tap>,
-                <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT &kp LEFT>;
+                <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT>;
 
             label = "AUTODQT";
         };
