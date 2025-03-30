@@ -41,7 +41,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - SYM
+  - NAV
   - NUM
   - $$mdi:keyboard-space$$
   - FUN
@@ -90,7 +90,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYM:
+  NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -315,7 +315,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '7':
+  ARRC:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -378,4 +378,4 @@ combos:
 - p: [14, 16]
   k: SNIPE
 - p: [15, 16]
-  k: '7'
+  k: ARRC
