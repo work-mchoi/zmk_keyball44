@@ -53,7 +53,7 @@
         braceket: braceket {
             compatible = "zmk,behavior-mod-morph";
             label = "BRACEKET";
-            bindings = <&autobracket>, <&autobracket>;
+            bindings = <&autobracket>, <&autobrace>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
