@@ -96,6 +96,11 @@
             bindings = <&tidesc>;
             key-positions = <0 1>;
         };
+
+        snipelayer {
+            bindings = <&mo 6>;
+            key-positions = <14 16>;
+        };
     };
 
     macros {
