@@ -1,10 +1,11 @@
 #define DEFAULT 0
 #define NUM     1
-#define SYM     2
+#define NAV     2
 #define FUN     3
 #define MOUSE   4
 #define SCROLL  5
 #define SNIPE   6
+#define ARRC    7
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -230,7 +231,7 @@
         };
 
         layer_7 {
-            label = "ARRC"
+            label = "ARRC";
             bindings = <
 &trans  &trans  &trans        &trans                  &trans             &trans                            &trans            &trans    &trans  &trans     &trans  &trans
 &trans  &trans  &trans        &trans                  &trans             &trans                            &kp LEFT          &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
