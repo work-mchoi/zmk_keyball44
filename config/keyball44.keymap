@@ -132,7 +132,9 @@
         autobrace: autobrace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            bindings =
+                <&macro_tap>,
+                <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT &kp LEFT_ARROW>;
 
             label = "AUTOBRACE";
         };
@@ -150,7 +152,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT>;
+                <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT &kp LEFT>;
 
             label = "AUTODQT";
         };
