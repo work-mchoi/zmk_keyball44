@@ -198,9 +198,9 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &trans    &kp UP_ARROW  &trans     &kp HOME              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp MINUS          &kp EQUAL
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END               &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
-&trans  &trans  &trans    &trans        &trans     &trans                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans             &trans
+&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp MINUS          &kp EQUAL
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp HOME              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
+&trans  &trans  &trans    &trans        &trans     &kp END               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans             &trans
 &trans  &trans  &trans    &trans        &trans                   &trans  &trans                                                                         &trans
             >;
         };
